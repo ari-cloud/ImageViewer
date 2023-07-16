@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA128EC02A3B67F70076876D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA128EBF2A3B67F70076876D /* HomeViewModel.swift */; };
+		CA128EC22A3B68080076876D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA128EC12A3B68080076876D /* HomeView.swift */; };
+		CA128EC52A3B6F530076876D /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA128EC42A3B6F530076876D /* DetailScreen.swift */; };
+		CA128EC72A3B77EC0076876D /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA128EC62A3B77EC0076876D /* DetailViewModel.swift */; };
+		CA128ECB2A460E160076876D /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA128ECA2A460E160076876D /* test.swift */; };
+		CA22721A2A63CA8700CEC8D9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2272192A63CA8700CEC8D9 /* NetworkService.swift */; };
+		CA22721D2A63CF0300CEC8D9 /* ImageDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22721C2A63CF0300CEC8D9 /* ImageDTO.swift */; };
 		CA9FF7C92A3B504D00F34CD0 /* PhotoViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FF7C82A3B504D00F34CD0 /* PhotoViewerApp.swift */; };
-		CA9FF7CB2A3B504D00F34CD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FF7CA2A3B504D00F34CD0 /* ContentView.swift */; };
 		CA9FF7CD2A3B504E00F34CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9FF7CC2A3B504E00F34CD0 /* Assets.xcassets */; };
 		CA9FF7D02A3B504E00F34CD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9FF7CF2A3B504E00F34CD0 /* Preview Assets.xcassets */; };
 		CA9FF7DA2A3B504F00F34CD0 /* PhotoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FF7D92A3B504F00F34CD0 /* PhotoViewerTests.swift */; };
@@ -34,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA128EBF2A3B67F70076876D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CA128EC12A3B68080076876D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA128EC42A3B6F530076876D /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		CA128EC62A3B77EC0076876D /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		CA128ECA2A460E160076876D /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		CA2272192A63CA8700CEC8D9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CA22721C2A63CF0300CEC8D9 /* ImageDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDTO.swift; sourceTree = "<group>"; };
 		CA9FF7C52A3B504D00F34CD0 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9FF7C82A3B504D00F34CD0 /* PhotoViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerApp.swift; sourceTree = "<group>"; };
-		CA9FF7CA2A3B504D00F34CD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA9FF7CC2A3B504E00F34CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9FF7CF2A3B504E00F34CD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA9FF7D52A3B504F00F34CD0 /* PhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +83,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA128EBE2A3B67D60076876D /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CA128EBF2A3B67F70076876D /* HomeViewModel.swift */,
+				CA128EC12A3B68080076876D /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		CA128EC32A3B6F300076876D /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CA128EC42A3B6F530076876D /* DetailScreen.swift */,
+				CA128EC62A3B77EC0076876D /* DetailViewModel.swift */,
+				CA128ECA2A460E160076876D /* test.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		CA2272172A63CA5A00CEC8D9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CA128EBE2A3B67D60076876D /* HomeScreen */,
+				CA128EC32A3B6F300076876D /* DetailScreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CA2272182A63CA7100CEC8D9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA22721B2A63CEE900CEC8D9 /* Models */,
+				CA2272192A63CA8700CEC8D9 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA22721B2A63CEE900CEC8D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA22721C2A63CF0300CEC8D9 /* ImageDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CA9FF7BC2A3B504C00F34CD0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +151,9 @@
 		CA9FF7C72A3B504D00F34CD0 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				CA2272182A63CA7100CEC8D9 /* Services */,
+				CA2272172A63CA5A00CEC8D9 /* UI */,
 				CA9FF7C82A3B504D00F34CD0 /* PhotoViewerApp.swift */,
-				CA9FF7CA2A3B504D00F34CD0 /* ContentView.swift */,
 				CA9FF7CC2A3B504E00F34CD0 /* Assets.xcassets */,
 				CA9FF7CE2A3B504E00F34CD0 /* Preview Content */,
 			);
@@ -257,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA9FF7CB2A3B504D00F34CD0 /* ContentView.swift in Sources */,
+				CA128EC52A3B6F530076876D /* DetailScreen.swift in Sources */,
+				CA128ECB2A460E160076876D /* test.swift in Sources */,
+				CA128EC72A3B77EC0076876D /* DetailViewModel.swift in Sources */,
+				CA22721D2A63CF0300CEC8D9 /* ImageDTO.swift in Sources */,
+				CA128EC22A3B68080076876D /* HomeView.swift in Sources */,
+				CA128EC02A3B67F70076876D /* HomeViewModel.swift in Sources */,
 				CA9FF7C92A3B504D00F34CD0 /* PhotoViewerApp.swift in Sources */,
+				CA22721A2A63CA8700CEC8D9 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
